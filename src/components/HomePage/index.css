@@ -1,0 +1,380 @@
+
+.home-container {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.outer-product-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-container-small {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-text-container {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.gold-heading {
+  color: #2D2D2D;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat';
+}
+
+.made-paragraph {
+  color: #878B94;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  margin-top: 5px;
+}
+
+.box-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  width: 150px; 
+}
+
+.rating-icon {
+  width: auto;
+  height: 20px;
+  background-color: #388E3C;
+}
+
+.rating-no {
+  color: #2D2D2D;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.price-all-rate-container {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  color: #2D2D2D;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.old-price {
+  font-size: 16px;
+  color: #878B94;
+  text-decoration: line-through;
+  margin-right: 10px;
+  font-weight: 600; 
+}
+
+.discount {
+  font-size: 18px;
+  font-family: 'Montserrat';
+  color: #388E3C;
+  font-weight: 600;
+}
+
+.btn-alignment {
+  display: flex;
+  margin: 15px 0;
+  gap: 10px;
+}
+
+.add-cart-btn, .buy-btn {
+  flex-grow: 1;
+  height: 48px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-cart-btn {
+  background-color: #ffffff;
+  color: #FF8F9D;
+  border: 1px solid #FF8F9D;
+}
+
+.buy-btn {
+  background-color: #FF8F9D;
+  color: #ffffff;
+  border: none;
+}
+
+.main-product-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 20px 0;
+  flex-direction: column; 
+}
+
+.product-des-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.product-image {
+  width: 34px;
+  height: 34px;
+}
+
+.product-des {
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #2D2D2D;
+  margin-left: 10px;
+}
+
+.order-items-container, .product-description-section {
+  margin: 20px 0;
+}
+
+.offers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 20px; 
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.offer-available-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row; 
+  justify-self: center; 
+  align-items: center;
+  height: 50px;
+  width: 150px;
+
+}
+
+.offer-heading-2, .estimate-heading, .all-pro-des {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.offer-paragraph, .coupon-para, .pro-desc {
+  font-size: 14px;
+  color: #2D2D2D;
+  font-weight: 500; 
+  font-family: 'Montserrat'; 
+}
+
+.offer-paragraph-check {
+  font-size: 14px;
+  color: #FF8F9D;
+  font-weight: 600;
+}
+
+.pincode-container {
+  display: flex;
+}
+
+.pincode-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #878B94;
+  border-right: none;
+  font-size: 14px;
+}
+
+.pincode-button {
+  padding: 8px 16px;
+  border: 2px solid #878B94;
+  background-color: transparent;
+  color: #FF8F9D;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.red-line {
+  border: 0;
+  border-top: 1px solid #FF8F9D;
+  margin: 20px 0;
+}
+
+.pro-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.span-pro {
+  font-weight: 600;
+  color: #878B94;
+  margin-bottom: 20px;
+}.pro-desc-25 {
+  font-weight: 600;
+  color: #000000;
+}
+
+.each-pro-des-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slider-container-large, .similar-item-container, .toppicks-container {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    padding: 0 5%;
+  }
+
+  .outer-product-container {
+    flex-direction: row;
+    padding: 30px 0;
+    gap: 4%;
+    align-items: flex-start;
+  }
+
+  .slider-container-large {
+    display: block;
+    width: 48%;
+  }
+  
+  .product-text-container {
+    width: 48%;
+    padding-top: 0;
+  }
+
+  .gold-heading { 
+    font-size: 32px; 
+    font-family: "Montserrat"; 
+    color: #2D2D2D; 
+    font-weight: 500; 
+  }
+  .made-paragraph { 
+    font-size: 32px; 
+    font-family: "Montserrat"; 
+    color: #878B94; 
+    font-weight: 600; 
+
+  }
+
+  .main-product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    gap: 15px;
+  }
+
+  .product-des-container {
+    flex-direction: row;
+    width: auto;
+  }
+
+  .product-des {
+    font-size: 20px;
+    font-family: "Montserrat";
+    margin-left: 10px;
+    color: #2D2D2D; 
+  }
+
+  .slider-container-small, .like-small-container {
+    display: none;
+  }
+
+  .similar-item-container, .toppicks-container {
+    display: block;
+  }.order-items-container{
+    display: flex; 
+    flex-direction: column;
+  }.pincode-container{
+    order: 1; 
+  }.offers-container{
+    order: 2; 
+  }.coupon-para{
+    order: 3; 
+    color: #2D2D2D; 
+    font-weight: 500; 
+    font-family: "Italic"; 
+    font-size: 18px; 
+
+  }.product-image{
+    width: 50px; 
+    height: 50px; 
+  }.estimate-heading{
+    font-size: 20px; 
+    font-family: 'Montserrat'; 
+    color: #2D2D2D; 
+    font-weight: 600; 
+  }.all-pro-des{
+    font-size: 20px; 
+    font-family: "Montserrat"; 
+    color: #000000; 
+    font-weight: 600; 
+  }.pro-desc{
+    color: #2D2D2D; 
+    font-family: "Montserrat"; 
+    font-size: 18px;
+    font-weight: 500;  
+  }.span-pro{
+    font-size: 18px; 
+    color: #878B94; 
+    font-family: "Montserrat";
+    font-weight: 500;  
+  }.offer-paragraph{
+    font-size: 18px; 
+    font-family: "Montserrat"; 
+    color: #878B94; 
+    font-weight: 400; 
+  }.pro-desc-25{
+    color: #FF8F9D; 
+    font-size: 18px; 
+    font-weight: 600; 
+    font-family: "Montserrat"; 
+  }.old-price{
+    color: #878B94; 
+    font-family: "Montserrat"; 
+    font-size: 18px; 
+    font-weight: 600; 
+    text-decoration: line-through;
+    margin-left: 15px;
+  }.price{
+    color: #2D2D2D; 
+    font-size: 42px; 
+    font-family: "Montserrat"; 
+    font-weight: 600; 
+  }.discount{
+    color: #388E3C; 
+    font-size: 24px; 
+    font-weight: 600; 
+    font-family: 'Montserrat'; 
+    margin-left: 15px;
+
+  }
+}

@@ -1,0 +1,164 @@
+
+.header-main {
+  width: 100%;
+}
+
+.offers-header-heading {
+  background-color: #CA8787;
+  text-align: center;
+  padding: 8px 15px;
+}
+
+.off-heading {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 500; 
+}
+
+.small-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #ffffff;
+}
+
+.lift-side-container,
+.right-side-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.home-icons {
+  font-size: 26px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.logo-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #000000;
+}
+
+.left-arrow-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #ffffff;
+}
+
+.product-heading {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  margin-left: 10px;
+  color: #2D2D2D; 
+}
+
+.large-devices-header {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .small-device-outer {
+    display: none;
+  }
+
+  .large-devices-header {
+    display: block;
+  }
+
+  .offer-heading {
+    font-size: 14px;
+  }
+
+  .bottom-logo-header-container {
+    background-color: #FAF9F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 5%;
+    height: 85px; 
+    width: 100vw;
+  }
+
+  .logo-heading {
+    font-size: 24px;
+    font-weight: 700; 
+    color: #2D2D2D; 
+    font-family: "Montserrat"; 
+  }
+
+  .collection-items-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .collection-icon-container,
+  .categories-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .item-paragraph {
+    font-family: "Montserrat";
+    color: #4D4D4D; 
+    font-weight: 400; 
+    font-size: 16px;
+  }
+
+  .both-btn-container {
+    display: flex;
+    gap: 6px;
+  }
+
+  .login-btn-home, .register-btn-home {
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .login-btn-home {
+    background-color: #FF8F9D;
+    color: #ffffff;
+    border: none;
+  }
+
+  .register-btn-home {
+    background-color: #ffffff;
+    color: #FF8F9D;
+    border: 1px solid #FF8F9D;
+  }
+  
+  .section-items-names {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+    gap: 8px;
+    font-size: 14px;
+    color: #878B94;
+    font-family: 'Montserrat', sans-serif;
+  }.offer-heading-container{
+    background-color: #CA8787;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 43px; 
+
+  }
+}

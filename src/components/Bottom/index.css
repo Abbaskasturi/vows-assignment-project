@@ -1,0 +1,135 @@
+
+.bottom-main-line-container {
+  width: 100%;
+  background-color: #D9D9D9;
+   padding: 20px 0;
+  margin-top: 20px;
+}
+
+.bottom-outer-container {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.links-container,
+.details-container-1 {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.details-container-2 {
+  display: none;
+}
+
+.contact-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bottom-heading {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: #A40303;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.unordered-container {
+  list-style-type: none;
+}
+
+.unordered-container p {
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: #2D2D2D;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.social-media-container-outer {
+  width: 100%;
+}
+
+.social-para {
+  font-size: 15px;
+  font-family: 'Montserrat';
+  color: #2D2D2D;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.social-media-container {
+  display: flex;
+  gap: 15px;
+}
+
+.link-icon {
+  color: #A40303;
+  font-size: 30px;
+}
+
+.copy-rights-container {
+  width: 100%;
+  background-color: #CA8787;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.copy-right-para {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.bottom-line {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bottom-outer-container {
+    justify-content: space-around;
+    padding: 30px 2%;
+  }
+
+  .links-container,
+  .details-container-1,
+  .details-container-2,
+  .contact-container {
+    width: 22%;
+    max-width: 250px;
+    margin-bottom: 0;
+  }
+
+  .details-container-2 {
+    display: block;
+  }
+
+  .copy-rights-container {
+    margin-top: 30px;
+  }
+
+  .copy-right-para {
+    text-align: left;
+  }
+
+  .bottom-line {
+    display: block;
+    border: 0;
+    border-top: 1px solid #A40303;
+    width: 95%;
+    margin: 0 auto 30px auto;
+  }.bottom-heading{
+  font-size: 16px;
+  }.unordered-container p {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  color: #2D2D2D;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+}
